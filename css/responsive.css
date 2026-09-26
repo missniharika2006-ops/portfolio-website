@@ -1,0 +1,124 @@
+@media(max-width:980px){
+  .container{width:min(100% - 48px,820px)}
+  .nav-links{gap:19px}
+  .hero-layout{gap:26px}
+  .hero-visual{min-height:400px}
+  .portrait-card{height:340px}
+  .about-grid{gap:50px}
+  .skills-layout{grid-template-columns:1.5fr .8fr}
+  .skills-aside{padding:21px}
+  .journey-layout{gap:55px}
+  .credential-grid{grid-template-columns:repeat(2,1fr)}
+  .credential-card{min-height:195px}
+  .resume-layout{gap:45px}
+  .contact-layout{gap:40px}
+  .flow-track{gap:5px;padding-inline:8px}
+  .flow-step{min-width:54px}
+}
+@media(max-width:720px){
+  .container{width:calc(100% - 40px)}
+  .section-pad{padding:78px 0}
+  .site-header{height:67px}
+  .menu-toggle{display:block;font-size:19px}
+  .nav-shell{position:relative}
+  .nav-links{position:absolute;top:66px;left:-20px;right:-20px;display:none;align-items:stretch;gap:0;padding:8px 20px 17px;border-bottom:1px solid var(--line);background:var(--bg);box-shadow:0 15px 20px rgba(19,27,54,.08)}
+  .nav-links.open{display:flex;flex-direction:column}
+  .nav-links>a:not(.nav-contact){padding:11px 4px;border-bottom:1px solid var(--line);font-size:13px}
+  .nav-links .nav-contact{margin-top:12px;text-align:center}
+  .theme-toggle{position:absolute;right:8px;bottom:23px}
+  .hero{padding:60px 0 20px}
+  .hero-layout{grid-template-columns:1fr;gap:20px}
+  .hero-copy{max-width:560px}
+  .hero-copy .eyebrow{margin-top:25px}
+  h1{font-size:clamp(63px,15vw,85px)}
+  .hero-visual{min-height:360px}
+  .visual-index{top:0;right:8%}
+  .portrait-card{width:min(310px,75%);height:320px}
+  .portrait-initials{font-size:135px}
+  .floating-note{left:5%;bottom:70px}
+  .scroll-cue{bottom:5px;right:0}
+  .hero-footer{margin-top:13px;font-size:7px}
+  .strip-inner{justify-content:flex-start;gap:19px}
+  .strip-inner span:nth-of-type(n+3),.strip-inner i:nth-of-type(n+3){display:none}
+  .section-heading{display:block;margin-bottom:32px}
+  .heading-note{max-width:450px;margin-top:14px;font-size:12px}
+  h2{font-size:clamp(35px,9vw,47px)}
+  .about-grid{grid-template-columns:1fr;gap:35px}
+  .about-story{max-width:none}
+  .stats-row{grid-template-columns:repeat(3,1fr);gap:13px;margin-top:42px}
+  .stat-item{display:block}
+  .stat-item strong{display:block;margin-bottom:7px;font-size:29px}
+  .stat-note{grid-column:1/-1;padding-top:12px;border-top:1px solid var(--line)}
+  .skills-layout{grid-template-columns:1fr}
+  .skills-aside{min-height:365px}
+  .project-grid{grid-template-columns:1fr}
+  .project-art{height:220px}
+  .project-info>p{min-height:0}
+  .journey-layout{grid-template-columns:1fr;gap:34px}
+  .journey-stamp{position:absolute;right:0;top:35px;width:82px;height:82px;margin:0}
+  .journey-stamp strong{font-size:16px}
+  .timeline{margin-left:10px}
+  .resume-layout{grid-template-columns:1fr;gap:40px}
+  .resume-paper-wrap{width:100%;margin:auto}
+  .overview-columns{grid-template-columns:1fr;gap:0}
+  .flow-track{flex-wrap:wrap;justify-content:center;gap:12px}
+  .flow-step{min-width:59px}
+  .flow-arrow{display:none}
+  .flow-footnote{flex-wrap:wrap;gap:8px 17px}
+  .overview-bottom{grid-template-columns:1fr;gap:20px}
+  .contact-layout{grid-template-columns:1fr;gap:27px}
+  .contact-form{padding:18px}
+  .footer-main{gap:15px}
+  .footer-main>p{font-size:9px}
+}
+@media(max-width:460px){
+  .container{width:calc(100% - 32px)}
+  .section-pad{padding:65px 0}
+  .hero{padding-top:42px}
+  .availability{font-size:8px}
+  h1{letter-spacing:-4px}
+  .hero-intro{font-size:13px}
+  .hero-actions{gap:9px}
+  .button{padding:12px 12px;font-size:10px}
+  .hero-visual{min-height:330px}
+  .portrait-card{height:295px}
+  .portrait-initials{font-size:115px}
+  .portrait-caption{left:14px;right:14px}
+  .portrait-caption span:last-child{font-size:5px}
+  .portrait-sticker{right:-16px}
+  .floating-note{left:0;bottom:61px}
+  .hero-footer span:first-child{max-width:45%}
+  .hero-footer span:last-child{text-align:right}
+  .stats-row{gap:8px}
+  .stat-item strong{font-size:25px}
+  .stat-item>span{font-size:7px}
+  .skill-categories{grid-template-columns:1fr}
+  .skill-card>p{min-height:0}
+  .filter-bar{gap:6px}
+  .filter-button{padding:7px 9px;font-size:9px}
+  .project-art{height:190px}
+  .credential-grid{gap:9px}
+  .credential-card{min-height:209px;padding:15px 12px}
+  .credential-footer{right:11px;left:12px;font-size:6px}
+  .resume-copy h2{font-size:41px}
+  .resume-paper-wrap{padding:14px 20px}
+  .resume-paper{min-height:325px;padding:22px}
+  .paper-side-label{right:4px;font-size:6px}
+  .paper-bottom{right:22px;left:22px}
+  .tech-branches{gap:4px}
+  .tech-branches span{font-size:7px}
+  .tech-pipeline{font-size:7px}
+  .tech-pipeline span,.tech-pipeline b{padding:5px 4px}
+  .tree-child{font-size:9px;padding-left:8px}
+  .tree-child small{font-size:7px}
+  .form-row{grid-template-columns:1fr;gap:0}
+  .form-heading{display:block}
+  .form-heading>span{display:block;margin-top:3px}
+  .form-bottom{align-items:flex-start;flex-direction:column}
+  .form-bottom .button{align-self:flex-end}
+  .footer-main{flex-wrap:wrap}
+  .footer-main>p{flex:1}
+  .footer-links{width:100%;justify-content:flex-start}
+  .footer-bottom{gap:10px;font-size:6px;letter-spacing:.6px}
+  .back-to-top{right:14px;bottom:14px}
+}
