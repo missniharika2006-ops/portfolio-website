@@ -159,6 +159,7 @@ h2 em,.skills-aside h3 em{color:var(--blue);font-style:normal}
 .filter-button.active{border-color:var(--ink);background:var(--ink);color:var(--bg)}
 .filter-button span{padding-left:5px;color:var(--blue)}
 .project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.project-grid-single{grid-template-columns:minmax(0,1fr);max-width:760px;margin-inline:auto}
 .project-card{overflow:hidden;border:1px solid var(--line);border-radius:9px;background:var(--bg);transition:transform var(--transition),border-color var(--transition),opacity .25s}
 .project-card:hover{transform:translateY(-4px);border-color:color-mix(in srgb,var(--blue) 42%,var(--line))}
 .project-card.is-hidden{display:none}
